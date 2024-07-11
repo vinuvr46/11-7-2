@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff7f9de;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    width: 500px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.logo{
+    color: #cb936a;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align:center ;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"] {
+    width: 200px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;}
+
+.rating {
+    display: flex;
+    justify-content: left;
+    margin-top: 10px;
+}
+
+.rating input[type="radio"] {
+    display: none;
+}
+
+.rating label {
+    font-size: 2em;
+    color: #ddd;
+    cursor: pointer;
+}
+
+.rating input[type="radio"]:checked ~ label {
+    color: #ffbb33;
+}
+
+.rating label:hover,
+.rating label:hover ~ label {
+    color: #ffbb33;
+}
+
+.checkbox-group {
+    text-align: left;
+}
+
+.checkbox-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: normal;
+}
+
+button {
+    background-color: #cb936a;
+    border: none;
+    color: white;
+    padding: 5px 190px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #ffa500;
+}
+.flex-boy {
+    display:flex;
+    position: relative;
+    justify-content: space-around;
+    text-align: left;
+}
+.form-group-1 {
+    
+}

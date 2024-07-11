@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback Form</title>
+    <link rel="stylesheet" href="2.css">
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+          <h1>AQUIOS</h1>
+        </div>
+        <form action="/submit-feedback" method="post">
+          <div class = "flex-boy">
+            <div class="form-group-1">
+                <label for="first-name">First Name*</label>
+                <input type="text" id="first-name" name="first-name" required>
+            </div>
+            <div class="form-group-1">
+                <label for="last-name">Last Name*</label>
+                <input type="text" id="last-name" name="last-name" required>
+            </div> 
+          </div>
+            <div class="form-group">
+                <label for="email">Email Address*</label>
+                <input type="email" id="email" name="email" required>
+          </div>
+            <div class="form-group">
+                <label>How was your overall experience?*</label>
+                <div class="rating">
+                    <input type="radio" name="rating" id="star1" value="1"><label for="star1">★</label>
+                    <input type="radio" name="rating" id="star2" value="2"><label for="star2">★</label>
+                    <input type="radio" name="rating" id="star3" value="3"><label for="star3">★</label>
+                    <input type="radio" name="rating" id="star4" value="4"><label for="star4">★</label>
+                    <input type="radio" name="rating" id="star5" value="5"><label for="star5">★</label>
+                </div>
+            </div>
+            <div class="form-group">
+                <label>Was our representative (check all that apply):</label>
+                <div class="checkbox-group">
+                    <label><input type="checkbox" name="attributes" value="Professional and courteous?"> Professional and courteous?</label>
+                    <label><input type="checkbox" name="attributes" value="Patient?"> Patient?</label>
+                    <label><input type="checkbox" name="attributes" value="Knowledgeable?"> Knowledgeable?</label>
+                    <label><input type="checkbox" name="attributes" value="Warm and respectful?"> Warm and respectful?</label>
+                    <label><input type="checkbox" name="attributes" value="Friendly?"> Friendly?</label>
+                    <label><input type="checkbox" name="attributes" value="Clear and direct?"> Clear and direct?</label>
+                    <label><input type="checkbox" name="attributes" value="Efficient?"> Efficient?</label>
+                </div>
+            </div>
+            <div class="form-group">
+                <button type="submit"><span>Submit Feedback<span></button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
+5
